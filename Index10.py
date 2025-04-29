@@ -6,4 +6,5 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return sum(int(digit) for digit in s)
+print(main('546787'))
