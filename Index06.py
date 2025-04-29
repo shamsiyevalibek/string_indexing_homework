@@ -6,4 +6,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    if len(s) == 0:
+        return "Empty string"
+    elif len(s) == 1:
+        return s + s  # faqat 1 ta belgi bo‘lsa, o‘zi bilan o‘zi
+    else:
+        return s[0] + s[-1]
+print(main('salm'))
