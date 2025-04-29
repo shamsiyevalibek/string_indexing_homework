@@ -6,5 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    if "*" in s:
+        return s.index("*")
+    else:
+        return False
+print(main('slim'))
