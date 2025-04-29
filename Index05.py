@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    count = 0
+    for char in s:
+        if char.isdigit():
+            count += 1
+    return count
+print(main('salom'))
